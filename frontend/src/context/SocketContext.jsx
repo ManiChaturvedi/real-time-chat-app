@@ -20,6 +20,11 @@ export const SocketContextProvider = ({ children }) => {
 					userId: authUser._id,
 				},
 			});
+			// const socket = io("https://localhost:3000", {
+			// 	query: {
+			// 		userId: authUser._id,
+			// 	},
+			// });
 
 			setSocket(socket);
 
